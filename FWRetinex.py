@@ -123,7 +123,9 @@ class MLPBlock(nn.Module):
 
 
 class BasicStage(nn.Module):
-
+    '''
+    https://github.com/JierunChen/FasterNet
+   '''
     def __init__(self,
                  dim,
                  depth=3,

@@ -14,7 +14,7 @@ from data import get_training_set, get_eval_set
 from tensorboardX import SummaryWriter
 from utils import *
 from measure import *
-from model import *
+from FWRetinex import *
 
 
 # Training settings
